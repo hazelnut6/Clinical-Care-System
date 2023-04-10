@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin:50px;
+}
+
+.header .logo{
+    display: flex;
+    align-items: end;
+    font-size: 32px;
+}
+
+.header .logo .letter{
+    font-weight: 700;
+}
+
+.header .logo .Name{
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.header_nav{
+    display: flex;
+    font-size: 18px;
+    align-items: end;
+    margin-right: 120px;
+}
+
+.header_nav .header_navLink ,
+.header_nav .header_navLinkHome{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #7D7987;
+}
+
+.header_nav .header_navLinkHome:hover{
+    color: black;
+    transform: scale(1.03);
+}
+
+.header_nav .header_navLink:hover{
+    color: black ;
+    transform: scale(1.03);
+}
+
+.virtualHealthcare{
+    display: flex;
+    min-height: 80vh;
+}
+
+.virtualHealthcare_wrapper{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.virtualHealthcareInfo__info-title{
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.virtualHealthcareInfo__info-description{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px ;
+    margin-top: 5px;
+}
+
+.virtualHealthcareInfo__info-button{
+    margin:30px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.virtualHealthcareInfo__info-button{
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: .3s;
+}
+
+.virtualHealthcareInfo__info-button:hover{
+    color: #fff;
+    background-color: #7D7987;
+    border: 1px solid rgb(214, 196, 196);
+}
+
+
+
+.footer__blueRectangle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+   
+    padding: 20px;
+}
+
+.footer_box{
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_box:first-child{
+    letter-spacing: 2px;
+
+}
+
+.footer_box .footer__title{
+    font-size: 18px;
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.footer_box .footer__links a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #7D7987;
+}
